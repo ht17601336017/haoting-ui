@@ -1,24 +1,14 @@
-# ht-ui
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ 
+- 本项目仅作为vue组件封装的练习参考
+ 
+- 初始化vue项目
+    vue created demo
+ 
+- 安装组件库
+    npm add one-ui
+ 
+- 全局导入
+    import OneUI form 'one-ui'
+    import 'one-ui/lib/one.css'
+ 
+    Vue.use(OneUI)
